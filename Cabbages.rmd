@@ -21,9 +21,12 @@ veggy <- cabbages
  
 ### Is there a difference in average VitC between c39 and c52 cultivation methods?  
 
+Yes, there has to be a difference in between C#39 and C#52.
+
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+My methods that I am going to be using today are Plots, Numerical, and Inferential results.
 
 # Results
 
@@ -60,6 +63,10 @@ The "Numerical Results" indicate that the Vitamin C intake for Cult #52 is on av
 t.test(VitC~Cult,data=veggy)
 ```
 
+The "Inferential Results indicate the P-Value of the Vitamin C Cult is .00000003405 this is a extremely small number. The Null hypothesis states that both C#39 AND C#52 have the same amount of Vitamin C and here we can see that this is incorrect. Which concludes that method C#52 is better than C#39. 
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+After reviewing all the data provided including the plots, numerical, and inferential results. We can conclude that C#52 has a higher content of Vitamin C in it than C#39.
